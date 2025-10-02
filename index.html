@@ -3,9 +3,9 @@
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-    <title>Jon Barron</title>
+    <title>Ziyuan Yang</title>
 
-    <meta name="author" content="Jon Barron">
+    <meta name="author" content="Ziyuan Yang">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -20,21 +20,23 @@
             <tr style="padding:0px">
               <td style="padding:2.5%;width:63%;vertical-align:middle">
                 <p class="name" style="text-align: center;">
-                  Jon Barron
+                  Ziyuan Yang
                 </p>
                 <p>
-		I'm a research scientist at <a href="https://deepmind.google/">Google DeepMind</a> in San Francisco, where I lead a small team that mostly works on <a href="https://www.matthewtancik.com/nerf">NeRF</a>.
-		At Google I've worked on <a href="https://www.google.com/glass/start/">Glass</a>,  <a href="https://ai.googleblog.com/2014/04/lens-blur-in-new-google-camera-app.html">Lens Blur</a>, <a href="https://ai.googleblog.com/2014/10/hdr-low-light-and-high-dynamic-range.html">HDR+</a>, <a href="https://blog.google/products/google-ar-vr/introducing-next-generation-jump/">VR</a>, <a href="https://ai.googleblog.com/2017/10/portrait-mode-on-pixel-2-and-pixel-2-xl.html">Portrait Mode</a>, <a href="https://ai.googleblog.com/2020/12/portrait-light-enhancing-portrait.html">Portrait Light</a>, <a href="https://blog.google/products/maps/three-maps-updates-io-2022/">Maps</a>, and <a href="https://research.google/blog/bringing-3d-shoppable-products-online-with-generative-ai/">Shopping</a>.
-		I did my PhD at <a href="http://www.eecs.berkeley.edu/">UC Berkeley</a>, where I was advised by <a href="http://www.cs.berkeley.edu/~malik/">Jitendra Malik</a>.
-		I've received the <a href="https://www.thecvf.com/?page_id=413#YRA">PAMI Young Researcher Award</a>.
+                  Hi! I am a first-year ECE master student at University of Washington. Previously, I obtained my bachelor's degree at Xi'an Jiaotong University.
+                </p>
+                <p>
+                  I am interested in AI safety. I have interned at UW NLP with Ph.D. student <a href="https://bunsenfeng.github.io">Shangbin Feng</a> and Prof. <a href="https://homes.cs.washington.edu/~yuliats/">Yulia Tsvetkov</a>. 
+                  I also interned in <a href="https://air.tsinghua.edu.cn/en/">AIR, Tsinghua University</a> with <a href="https://seu-zxj.github.io">Xiaoji Zheng</a> and Prof. <a href="https://air.tsinghua.edu.cn/en/info/1046/1477.htm">Jiangtao Gong</a> on autonomous driving. 
                 </p>
                 <p style="text-align:center">
-                  <a href="mailto:jonbarron@gmail.com">Email</a> &nbsp;/&nbsp;
-                  <a href="data/JonBarron-CV.pdf">CV</a> &nbsp;/&nbsp;
-                  <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/jonbarron/">Github</a>
+                  <a href="franscih.yang@gmail.com">Email</a> &nbsp;/&nbsp;
+                  <!-- <a href="data/JonBarron-CV.pdf">CV</a> &nbsp;/&nbsp;
+                  <a href="data/JonBarron-bio.txt">Bio</a> &nbsp;/&nbsp; -->
+                  <!-- <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Scholar</a> &nbsp;/&nbsp;
+                  <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp;/&nbsp; -->
+                  <a href="https://github.com/Ziyuan-Yang/">Github</a> &nbsp;/&nbsp;
+                  <a href="www.linkedin.com/in/ziyuan-yang-55ba092b6">Linkedin</a>
                 </p>
               </td>
               <td style="padding:2.5%;width:37%;max-width:37%">
@@ -47,12 +49,63 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I'm interested in computer vision, deep learning, generative AI, and image processing. Most of my research is about inferring the physical world (shape, motion, color, light, etc) from images, usually with radiance fields. Some papers are <span class="highlight">highlighted</span>.
+                  I'm interested in Large Language Model safety. 
+                </p>
+                <p>
+                  Previously, I studied autonomous driving.
                 </p>
               </td>
             </tr>
           </tbody></table>
           <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+      <tr onmouseout="bolt3d_stop()" onmouseover="bolt3d_start()"  bgcolor="#ffffd0">
+              <td style="padding:16px;width:20%;vertical-align:middle">
+                <div class="one">
+                  <div class="two" id='bolt3d_image'><video  width=100% height=100% muted autoplay loop>
+                  <source src="images/bolt3d.mp4" type="video/mp4">
+                  Your browser does not support the video tag.
+        
+                  </video></div>
+                  <img src='images/bolt3d.jpg' width="160">
+                </div>
+                <script type="text/javascript">
+                  function bolt3d_start() {
+                    document.getElementById('bolt3d_image').style.opacity = "1";
+                  }
+        
+                  function bolt3d_stop() {
+                    document.getElementById('bolt3d_image').style.opacity = "0";
+                  }
+                  bolt3d_stop()
+                </script>
+              </td>
+              <td style="padding:8px;width:80%;vertical-align:middle">
+                <a href="">
+                  <span class="papertitle">Learning to Drive with Two Minds: A Competitive Dual-Policy Approach in Latent World Models</span>
+                </a>
+                <br>
+                <a href="https://seu-zxj.github.io">Xiaoji Zheng*</a>,
+            <strong>Ziyuan Yang*</strong>,
+                <a href="">Yuhang Peng</a>,
+                <a href="">Yanhao Chen</a>,
+                <a href="">Yuanrong Tang</a>,
+                <a href="">Gengyuan Liu</a>,
+                <a href="">Bokui Chen</a>,
+                <a href="https://air.tsinghua.edu.cn/en/info/1046/1477.htm">Jiangtao Gong</a>,
+                <br>
+                <em>ArXiv</em>, 2025
+                <br>
+                <a href="">project page</a>
+                /
+                <a href="">arXiv</a>
+                <p></p>
+                <p>
+                  Propose a competitive dual-policy framework that enables IL and RL agents to interact during training. This method introduces a competition-based mechanism that facilitates knowledge exchange while preventing gradient conflicts. 
+                </p>
+              </td>
+            </tr>
+    
 
 
     <tr onmouseout="bolt3d_stop()" onmouseover="bolt3d_start()"  bgcolor="#ffffd0">
@@ -77,33 +130,31 @@
         </script>
       </td>
       <td style="padding:8px;width:80%;vertical-align:middle">
-        <a href="https://szymanowiczs.github.io/bolt3d">
-          <span class="papertitle">Bolt3D: Generating 3D Scenes in Seconds</span>
+        <a href="">
+          <span class="papertitle">Embodied Cognition Augmented End2End Autonomous Driving</span>
         </a>
         <br>
-        <a href="https://szymanowiczs.github.io/">Stanislaw Szymanowicz</a>,
-        <a href="https://jasonyzhang.com">Jason Y. Zhang</a>,
-        <a href="https://pratulsrinivasan.github.io">Pratul Srinivasan</a>,
-        <a href="https://ruiqigao.github.io">Ruiqi Gao</a>,
-        <a href="https://github.com/ArthurBrussee">Arthur Brussee</a>,
-        <a href="https://holynski.org">Aleksander Holynski</a>,
-        <a href="https://ricardomartinbrualla.com">Ricardo Martin-Brualla</a>,
-		<strong>Jonathan T. Barron</strong>,
-        <a href="https://henzler.github.io">Philipp Henzler</a>
+        <a href="">Ling Niu</a>,
+        <a href="https://seu-zxj.github.io">Xiaoji Zheng</a>,
+        <a href="">Han Wang</a>,
+    <strong>Ziyuan Yang</strong>,
+        <a href="">Chen Zheng</a>,
+        <a href="">Bokui Chen</a>,
+        <a href="https://air.tsinghua.edu.cn/en/info/1046/1477.htm">Jiangtao Gong</a>,
         <br>
-        <em>ICCV</em>, 2025
+        <em>NeurIPS</em>, 2025
         <br>
-        <a href="https://szymanowiczs.github.io/bolt3d">project page</a>
+        <a href="">project page</a>
         /
-        <a href="https://szymanowiczs.github.io/bolt3d">arXiv</a>
+        <a href="">arXiv</a>
         <p></p>
         <p>
-		By training a latent diffusion model to directly output 3D Gaussians we enable fast (~6 seconds on a single GPU) feed-forward 3D scene generation.
+        Propose a novel paradigm to advocate cross-modal self-supervised learning between visual feature extraction networks and a general EEG large model, in order to learn latent human driving cognition for enhancing end-to-end planning.
         </p>
       </td>
     </tr>
 
-    <tr onmouseout="ever_stop()" onmouseover="ever_start()">
+    <!-- <tr onmouseout="ever_stop()" onmouseover="ever_start()">
       <td style="padding:16px;width:20%;vertical-align:middle">
         <div class="one">
           <div class="two" id='ever_image'>
@@ -4173,10 +4224,10 @@ for Topologically Varying Neural Radiance Fields</span>
         <a href="http://www.youtube.com/watch?v=NnePYprvFvA">video</a>
         <p>This paper is subsumed by <a href="#SIRFS">SIRFS</a>.</p>
       </td>
-    </tr>
+    </tr> -->
 
 
-            <tr onmouseout="cvpr12_stop()" onmouseover="cvpr12_start()">
+            <!-- <tr onmouseout="cvpr12_stop()" onmouseover="cvpr12_start()">
               <td style="padding:16px;width:20%;vertical-align:middle">
                 <div class="one" style="height: 120px">
                   <div class="two" id='cvpr12_image' style="height: 120px">
@@ -4322,12 +4373,12 @@ for Topologically Varying Neural Radiance Fields</span>
                 <p>We use computer vision techniques to identify and remove diffraction spikes and reflection halos in the USNO-B Catalog.</p>
                 <p>In use at <a href="http://www.astrometry.net">Astrometry.net</a></p>
               </td>
-            </tr>
+            </tr> -->
 
-          </tbody></table>
+          <!-- </tbody></table> -->
 
           
-					<table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
+					<!-- <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
             <tr>
               <td>
                 <h2>Miscellanea</h2>
@@ -4414,13 +4465,13 @@ for Topologically Varying Neural Radiance Fields</span>
               </td>
             </tr>
             
-          </tbody></table>
+          </tbody></table> -->
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
             <tr>
               <td style="padding:0px">
                 <br>
                 <p style="text-align:right;font-size:small;">
-                  Feel free to steal this website's <a href="https://github.com/jonbarron/jonbarron_website">source code</a>. <strong>Do not</strong> scrape the HTML from this page itself, as it includes analytics tags that you do not want on your own website &mdash; use the github code instead. Also, consider using <a href="https://leonidk.com/">Leonid Keselman</a>'s <a href="https://github.com/leonidk/new_website">Jekyll fork</a> of this page.
+                  Template courtesy: <a href="https://github.com/jonbarron/jonbarron.github.io">Jon Barron</a>
                 </p>
               </td>
             </tr>
